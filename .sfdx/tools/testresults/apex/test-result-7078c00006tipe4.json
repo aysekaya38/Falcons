@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Jun 06 2022 9:44:37 PM",
+    "testExecutionTimeInMs": 57,
+    "testTotalTimeInMs": 57,
+    "commandTimeInMs": 341,
+    "hostname": "https://d8c000006fejfeai-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006feJfEAI",
+    "username": "konukn13@gmail.com",
+    "testRunId": "7078c00006tipe4",
+    "userId": "0058c00000AZHKTAA5"
+  },
+  "tests": [
+    {
+      "id": "07M8c00000880goEAA",
+      "queueItemId": "7098c0000012envAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006tipe4AAA",
+      "methodName": "testFetchAnimalsSuccess",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NZorKEAT",
+      "apexClass": {
+        "id": "01p8c00000SdHSQAA3",
+        "name": "AnimalsHttpCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsHttpCalloutsTest"
+      },
+      "runTime": 57,
+      "testTimestamp": "2022-06-07T03:44:38.000+0000",
+      "fullName": "AnimalsHttpCalloutsTest.testFetchAnimalsSuccess"
+    }
+  ]
+}

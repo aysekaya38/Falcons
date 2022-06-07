@@ -1,6 +1,6 @@
 string jsonAccountString = '{"name": "JsonToApex1", "type": "prospect1", "annualrevenue": 53}';
 object ob = json.deserialize(jsonAccountString, account.class); //jsonAccountString json string, account.class is the Sobjects class
-account acc = (account)ob; //(account) is type cast, meaning the apex object
+account acc = (account)ob; //(account) is type cast, meaning converting an account apex object
 insert acc;
 
 //

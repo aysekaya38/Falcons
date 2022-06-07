@@ -17,6 +17,20 @@ public with sharing class AnimalsCallouts {
         if(response.getStatusCode() == 200){ //entire response it too big, so we limit it to status code and response
             string animalsJson = response.getBody();
             System.debug(animalsJson);
+
+            //alternatively
+            // object ob = json.deserializeUntyped(animalsJson); //we get the animals as object
+            // map<string, object> results = (map<string, object>)ob; //type cast since object is unknown is a map
+
+          map<string, object> results = (map<string, object>)JSON.deserializeUntyped(animalsJson);
+            System.debug('results =' +results);
+
+            list<object> animals = (list<object>) results.get('animals'); //convert object to list of objects, meaning type cast an object to list of objects
+            system.debug('-----object animals start');
+            for (object a: animals){
+                system.debug(a);
+            }
+            System.debug('-----object animals ends');
         } else{
             //no success
             System.debug('something went wrong');

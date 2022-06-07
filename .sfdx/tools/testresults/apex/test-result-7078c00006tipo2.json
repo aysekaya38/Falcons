@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 0,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Jun 06 2022 9:44:27 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 902,
+    "hostname": "https://d8c000006fejfeai-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006feJfEAI",
+    "username": "konukn13@gmail.com",
+    "testRunId": "7078c00006tipo2",
+    "userId": "0058c00000AZHKTAA5"
+  },
+  "tests": []
+}
