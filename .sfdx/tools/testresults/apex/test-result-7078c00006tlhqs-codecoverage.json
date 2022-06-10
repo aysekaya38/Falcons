@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AnimalsCalloutResponse",
+      "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+      "apexTestClassId": "01p8c00000SdHSQAA3",
+      "apexTestMethodName": "testFetchAnimalsFail",
+      "numLinesCovered": 9,
+      "numLinesUncovered": 3,
+      "percentage": "75%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          7,
+          8,
+          9,
+          12,
+          15,
+          20,
+          31,
+          34
+        ],
+        "uncoveredLines": [
+          21,
+          23,
+          24
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AnimalsHttpMockCalloutFailure",
+      "apexClassOrTriggerId": "01p8c00000Se0owAAB",
+      "apexTestClassId": "01p8c00000SdHSQAA3",
+      "apexTestMethodName": "testFetchAnimalsFail",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "AnimalsCalloutResponse",
+      "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+      "apexTestClassId": "01p8c00000SdHSQAA3",
+      "apexTestMethodName": "testFetchAnimalsSuccess",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 1,
+      "percentage": "92%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          7,
+          8,
+          9,
+          12,
+          15,
+          20,
+          21,
+          23,
+          24,
+          34
+        ],
+        "uncoveredLines": [
+          31
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AnimalsHttpMockCalloutFailure",
+      "apexClassOrTriggerId": "01p8c00000Se0owAAB",
+      "apexTestClassId": "01p8c00000SdHSQAA3",
+      "apexTestMethodName": "testFetchAnimalsSuccess",
+      "numLinesCovered": 1,
+      "numLinesUncovered": 4,
+      "percentage": "20%",
+      "coverage": {
+        "coveredLines": [
+          2
+        ],
+        "uncoveredLines": [
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  ]
+]

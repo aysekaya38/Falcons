@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 07 2022 6:47:20 PM",
+    "testExecutionTimeInMs": 36,
+    "testTotalTimeInMs": 36,
+    "commandTimeInMs": 461,
+    "hostname": "https://d8c000006fejfeai-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006feJfEAI",
+    "username": "konukn13@gmail.com",
+    "testRunId": "7078c00006tldAt",
+    "userId": "0058c00000AZHKTAA5",
+    "totalLines": 12,
+    "coveredLines": 11,
+    "testRunCoverage": "92%",
+    "orgWideCoverage": "18%"
+  },
+  "tests": [
+    {
+      "id": "07M8c00000881c9EAA",
+      "queueItemId": "7098c0000012gACAAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006tldAtAAI",
+      "methodName": "testFetchAnimalsSuccess",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004NZzpaEAD",
+      "apexClass": {
+        "id": "01p8c00000SdHSQAA3",
+        "name": "AnimalsHttpCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsHttpCalloutsTest"
+      },
+      "runTime": 36,
+      "testTimestamp": "2022-06-08T00:47:20.000+0000",
+      "fullName": "AnimalsHttpCalloutsTest.testFetchAnimalsSuccess",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AnimalsCalloutResponse",
+          "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+          "apexTestClassId": "01p8c00000SdHSQAA3",
+          "apexTestMethodName": "testFetchAnimalsSuccess",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 1,
+          "percentage": "92%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              8,
+              9,
+              12,
+              15,
+              20,
+              21,
+              23,
+              24,
+              34
+            ],
+            "uncoveredLines": [
+              31
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000SdFwWAAV",
+      "name": "AnimalsCalloutResponse",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 1,
+      "percentage": "92%",
+      "coveredLines": [
+        5,
+        7,
+        8,
+        9,
+        12,
+        15,
+        20,
+        21,
+        23,
+        24,
+        34
+      ],
+      "uncoveredLines": [
+        31
+      ]
+    }
+  ]
+}

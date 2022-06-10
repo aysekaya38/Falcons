@@ -1,0 +1,203 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jun 07 2022 7:15:44 PM",
+    "testExecutionTimeInMs": 49,
+    "testTotalTimeInMs": 49,
+    "commandTimeInMs": 268,
+    "hostname": "https://d8c000006fejfeai-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006feJfEAI",
+    "username": "konukn13@gmail.com",
+    "testRunId": "7078c00006tlhqs",
+    "userId": "0058c00000AZHKTAA5",
+    "totalLines": 17,
+    "coveredLines": 17,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "19%"
+  },
+  "tests": [
+    {
+      "id": "07M8c00000881dvEAA",
+      "queueItemId": "7098c0000012gG1AAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006tlhqsAAA",
+      "methodName": "testFetchAnimalsFail",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004Na05UEAR",
+      "apexClass": {
+        "id": "01p8c00000SdHSQAA3",
+        "name": "AnimalsHttpCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsHttpCalloutsTest"
+      },
+      "runTime": 35,
+      "testTimestamp": "2022-06-08T01:15:45.000+0000",
+      "fullName": "AnimalsHttpCalloutsTest.testFetchAnimalsFail",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AnimalsCalloutResponse",
+          "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+          "apexTestClassId": "01p8c00000SdHSQAA3",
+          "apexTestMethodName": "testFetchAnimalsFail",
+          "numLinesCovered": 9,
+          "numLinesUncovered": 3,
+          "percentage": "75%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              8,
+              9,
+              12,
+              15,
+              20,
+              31,
+              34
+            ],
+            "uncoveredLines": [
+              21,
+              23,
+              24
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AnimalsHttpMockCalloutFailure",
+          "apexClassOrTriggerId": "01p8c00000Se0owAAB",
+          "apexTestClassId": "01p8c00000SdHSQAA3",
+          "apexTestMethodName": "testFetchAnimalsFail",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c00000881dwEAA",
+      "queueItemId": "7098c0000012gG1AAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006tlhqsAAA",
+      "methodName": "testFetchAnimalsSuccess",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004Na05UEAR",
+      "apexClass": {
+        "id": "01p8c00000SdHSQAA3",
+        "name": "AnimalsHttpCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "AnimalsHttpCalloutsTest"
+      },
+      "runTime": 14,
+      "testTimestamp": "2022-06-08T01:15:45.000+0000",
+      "fullName": "AnimalsHttpCalloutsTest.testFetchAnimalsSuccess",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AnimalsCalloutResponse",
+          "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+          "apexTestClassId": "01p8c00000SdHSQAA3",
+          "apexTestMethodName": "testFetchAnimalsSuccess",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 1,
+          "percentage": "92%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              8,
+              9,
+              12,
+              15,
+              20,
+              21,
+              23,
+              24,
+              34
+            ],
+            "uncoveredLines": [
+              31
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AnimalsHttpMockCalloutFailure",
+          "apexClassOrTriggerId": "01p8c00000Se0owAAB",
+          "apexTestClassId": "01p8c00000SdHSQAA3",
+          "apexTestMethodName": "testFetchAnimalsSuccess",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 4,
+          "percentage": "20%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000SdFwWAAV",
+      "name": "AnimalsCalloutResponse",
+      "type": "ApexClass",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        5,
+        7,
+        8,
+        9,
+        12,
+        15,
+        20,
+        21,
+        23,
+        24,
+        31,
+        34
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8c00000Se0owAAB",
+      "name": "AnimalsHttpMockCalloutFailure",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

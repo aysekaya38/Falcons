@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AnimalsCalloutResponse",
+      "apexClassOrTriggerId": "01p8c00000SdFwWAAV",
+      "apexTestClassId": "01p8c00000SdHSQAA3",
+      "apexTestMethodName": "testFetchAnimalsSuccess",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 1,
+      "percentage": "92%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          7,
+          8,
+          9,
+          12,
+          15,
+          20,
+          21,
+          23,
+          24,
+          34
+        ],
+        "uncoveredLines": [
+          31
+        ]
+      }
+    }
+  ]
+]
