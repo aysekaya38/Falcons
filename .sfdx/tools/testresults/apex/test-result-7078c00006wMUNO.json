@@ -1,0 +1,250 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 4,
+    "passing": 4,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 10 2022 9:05:29 PM",
+    "testExecutionTimeInMs": 41,
+    "testTotalTimeInMs": 41,
+    "commandTimeInMs": 298,
+    "hostname": "https://d8c000006fejfeai-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000006feJfEAI",
+    "username": "konukn13@gmail.com",
+    "testRunId": "7078c00006wMUNO",
+    "userId": "0058c00000AZHKTAA5",
+    "totalLines": 13,
+    "coveredLines": 12,
+    "testRunCoverage": "92%",
+    "orgWideCoverage": "26%"
+  },
+  "tests": [
+    {
+      "id": "07M8c00000884hMEAQ",
+      "queueItemId": "7098c0000012htZAAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wMUNOAA4",
+      "methodName": "addtest",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004OGNDWEA5",
+      "apexClass": {
+        "id": "01p8c00000ScxIRAAZ",
+        "name": "calculatorTest",
+        "namespacePrefix": null,
+        "fullName": "calculatorTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2022-06-11T03:05:29.000+0000",
+      "fullName": "calculatorTest.addtest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Calculator",
+          "apexClassOrTriggerId": "01p8c00000RCKV8AAP",
+          "apexTestClassId": "01p8c00000ScxIRAAZ",
+          "apexTestMethodName": "addtest",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 10,
+          "percentage": "23%",
+          "coverage": {
+            "coveredLines": [
+              43,
+              44,
+              45
+            ],
+            "uncoveredLines": [
+              30,
+              33,
+              38,
+              48,
+              49,
+              52,
+              55,
+              56,
+              57,
+              59
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c00000884hNEAQ",
+      "queueItemId": "7098c0000012htZAAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wMUNOAA4",
+      "methodName": "addtest2",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004OGNDWEA5",
+      "apexClass": {
+        "id": "01p8c00000ScxIRAAZ",
+        "name": "calculatorTest",
+        "namespacePrefix": null,
+        "fullName": "calculatorTest"
+      },
+      "runTime": 4,
+      "testTimestamp": "2022-06-11T03:05:29.000+0000",
+      "fullName": "calculatorTest.addtest2",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Calculator",
+          "apexClassOrTriggerId": "01p8c00000RCKV8AAP",
+          "apexTestClassId": "01p8c00000ScxIRAAZ",
+          "apexTestMethodName": "addtest2",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 10,
+          "percentage": "23%",
+          "coverage": {
+            "coveredLines": [
+              43,
+              48,
+              49
+            ],
+            "uncoveredLines": [
+              30,
+              33,
+              38,
+              44,
+              45,
+              52,
+              55,
+              56,
+              57,
+              59
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c00000884hOEAQ",
+      "queueItemId": "7098c0000012htZAAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wMUNOAA4",
+      "methodName": "addtest3",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004OGNDWEA5",
+      "apexClass": {
+        "id": "01p8c00000ScxIRAAZ",
+        "name": "calculatorTest",
+        "namespacePrefix": null,
+        "fullName": "calculatorTest"
+      },
+      "runTime": 4,
+      "testTimestamp": "2022-06-11T03:05:29.000+0000",
+      "fullName": "calculatorTest.addtest3",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Calculator",
+          "apexClassOrTriggerId": "01p8c00000RCKV8AAP",
+          "apexTestClassId": "01p8c00000ScxIRAAZ",
+          "apexTestMethodName": "addtest3",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 6,
+          "percentage": "54%",
+          "coverage": {
+            "coveredLines": [
+              43,
+              48,
+              52,
+              55,
+              56,
+              57,
+              59
+            ],
+            "uncoveredLines": [
+              30,
+              33,
+              38,
+              44,
+              45,
+              49
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c00000884hPEAQ",
+      "queueItemId": "7098c0000012htZAAQ",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00006wMUNOAA4",
+      "methodName": "testMessage",
+      "outcome": "Pass",
+      "apexLogId": "07L8c00004OGNDWEA5",
+      "apexClass": {
+        "id": "01p8c00000ScxIRAAZ",
+        "name": "calculatorTest",
+        "namespacePrefix": null,
+        "fullName": "calculatorTest"
+      },
+      "runTime": 3,
+      "testTimestamp": "2022-06-11T03:05:29.000+0000",
+      "fullName": "calculatorTest.testMessage",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Calculator",
+          "apexClassOrTriggerId": "01p8c00000RCKV8AAP",
+          "apexTestClassId": "01p8c00000ScxIRAAZ",
+          "apexTestMethodName": "testMessage",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 8,
+          "percentage": "38%",
+          "coverage": {
+            "coveredLines": [
+              30,
+              33,
+              43,
+              48,
+              52
+            ],
+            "uncoveredLines": [
+              38,
+              44,
+              45,
+              49,
+              55,
+              56,
+              57,
+              59
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c00000RCKV8AAP",
+      "name": "Calculator",
+      "type": "ApexClass",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 1,
+      "percentage": "92%",
+      "coveredLines": [
+        30,
+        33,
+        43,
+        44,
+        45,
+        48,
+        49,
+        52,
+        55,
+        56,
+        57,
+        59
+      ],
+      "uncoveredLines": [
+        38
+      ]
+    }
+  ]
+}
