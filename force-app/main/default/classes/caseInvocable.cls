@@ -24,8 +24,17 @@ public class caseInvocable {
          System.debug(result.getErrors());
 
      }          
-
     }
+      //create a wrapper class inside the flow class to store the contact id and casenumber as one parameter
+      public class FlowInput{
+        //to make your flow open two boxes to fill as variables. the flow does not know your 'input' var in the Apex includes both caseNumber and conTACTid
+        @invocableVariable(label = 'Case Number' description = 'To get Case Number' required = true)
+        public string caseNumber;
+        @invocableVariable(label='Contact Id' description ='To get Contact Id' required = true)
+        public id contactId;
+    }   
+}
+
     //we can only send one parameter from flow to invocable method, so if we want to store data in organized manner we use SObject, but if I want to store temprary data to make programming easy we can use wrapper class
 
     //we can have a meaningful data to use temporaryly in a code EG: acc name, list<contactname> & list <opp name> 
@@ -34,12 +43,4 @@ public class caseInvocable {
         //public list<string> connames
        // public list<String> oppname
     
-    //create a wrapper class inside the flow class to store the contact id and casenumber as one parameter
-    public class FlowInput{
-        //to make your flow open two boxes to fill as variables. the flow does not know your 'input' var in the Apex includes both caseNumber and conTACTid
-        @invocableVariable(label = 'Case Number' description = 'To get Case Number' required = true)
-        public string caseNumber;
-        @invocableVariable(label='Contact Id' description ='To get Contact Id' required = true)
-        public id contactId;
-    }   
-}
+  
