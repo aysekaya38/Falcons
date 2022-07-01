@@ -22,6 +22,4 @@ public with sharing class AnimalsHttpCalloutsTest {
 
         System.assertEquals(404, response.getStatusCode());
     }
-
-    
 }

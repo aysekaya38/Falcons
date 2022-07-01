@@ -22,9 +22,4 @@ private with sharing class CustomContactAPITest {
 
         System.assert(creturn != null);
     }
-
-    @isTest
-    static void (){
-        
-    }
 }

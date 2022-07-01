@@ -59,4 +59,3 @@ public with sharing class CalcultorCalloutTest {
         
     }
     }
-

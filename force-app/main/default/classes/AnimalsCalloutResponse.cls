@@ -3,8 +3,6 @@ public with sharing class AnimalsCalloutResponse {
     public list<string> animals;
     private static string GET_ANIMALS_ENDPOINT = CalloutInfo__mdt.getInstance('GET_ANIMALS').endpoint__c;
     private static string POST_ANIMALS_ENDPOINT = CalloutInfo__mdt.getInstance('POST_ANIMALS').endpoint__c;
-    private static string HTTP_GET = 'GET';
-    private static string HTTP_POST = 'POST';
 
     public static HTTPresponse fetchAnimals2(){
          //1.prepare request: method and endpoint

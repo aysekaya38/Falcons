@@ -31,12 +31,11 @@ public with sharing class DummyPostCallout {
                 p.id__C = dpost.id;
                 p.title__c = dpost.title;
                 p.body__c= dpost.body;
-                p.tags__c = dpost.tags.toString();  //turn the list of tags into tags string
                 listPosts.add(p);
                 //we will need wrapper class because we cannot assign __c fields for custom objects
             }
             //insert listPosts;
-            upsert listPosts id__C; //as we do upsert we need the external id field, if id is found it will update, if not found it will insert
+            upsert listPosts id__C; //as we do upsert we need the external id field
 
         } else {
             system.debug(response.getStatus());

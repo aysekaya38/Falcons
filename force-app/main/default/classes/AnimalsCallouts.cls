@@ -18,11 +18,8 @@ public with sharing class AnimalsCallouts {
             string animalsJson = response.getBody();
             System.debug(animalsJson);
 
-            //alternatively
-            // object ob = json.deserializeUntyped(animalsJson); //we get the animals as object
-            // map<string, object> results = (map<string, object>)ob; //type cast since object is unknown is a map
-
-          map<string, object> results = (map<string, object>)JSON.deserializeUntyped(animalsJson);
+            object ob = json.deserializeUntyped(animalsJson); //we get the animals as object
+            map<string, object> results = (map<string, object>)ob; //type cast since object is unknown is a map
             System.debug('results =' +results);
 
             list<object> animals = (list<object>) results.get('animals'); //convert object to list of objects, meaning type cast an object to list of objects

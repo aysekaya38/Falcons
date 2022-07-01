@@ -92,4 +92,3 @@ global class CustomContactAPI {
         return ids;
     }    
     }
-
