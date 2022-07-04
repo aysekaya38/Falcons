@@ -14,7 +14,8 @@ public class caseInvocable {
                             + 'One of our customer representative is going to reachout to you. Stay tuned!'
                             + '\n Thank you!');
      Msgs.add(msg);  //send email only sends list of emails not single email, so create an empty list and add 
-     messaging.SendEmailResult[] results = Messaging.sendEmail(msgs);
+     //for handling errors
+     messaging.SendEmailResult[] results = Messaging.sendEmail(msgs); //messaging.SendEmailResult stores the values of mesaaging.sendEmail method. messaging.SendEmailResult has two methods: isSuccess() & getErrors()
      for(messaging.SendEmailResult result: results)
      if(result.isSuccess()){
          //create 
