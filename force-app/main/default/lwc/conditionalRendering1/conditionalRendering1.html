@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title = "Conditional Rendering1">
+        <div class ="slds-var-m-around_medium">
+            <!--to use a drirective you need a template tag open-->
+            <template if:true={showContent}>
+                the value is content is true, hence you are seeing me!
+            </template>
+            <template if:false={showContent}>
+                the value is false, hence you are seeing me!
+            </template>
+        </div>
+    </lightning-card>
+    
+    
+</template>

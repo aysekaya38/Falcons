@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title = "Two Way Data Binding">
+        <div class = "slds-var-m-around_medium">  <!--to repopulate a value on UI, use value attribute-->
+            <lightning-input 
+            type = "text" 
+            label="Enter your title"
+            onkeyup = {handleChange}       
+            value={title}>
+            </lightning-input> 
+            <div class="slds-var-m-top_small">I am {fullname} and my title is {title}</div>       
+        </div>
+    </lightning-card>
+</template>
+<!--we use events in html to make the changes in html reflected on JS; handleChange here is a fucntion-->

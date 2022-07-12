@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title = "Template Looping1">
+        <div class = "slds-var-m-around_medium">
+            <!--loop on array, item is double quote-not expression-->
+            <template for:each={fruits} for:item="fruitType">
+                <!--inside the temaplet looping we need an attribute called Key(string) helps LWC to identify which items are changed-->
+                <div key = {fruit}>{fruitType}</div>
+            </template>
+        </div>
+    </lightning-card>   
+</template>

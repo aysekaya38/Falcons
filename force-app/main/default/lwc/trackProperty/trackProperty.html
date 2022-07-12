@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title = "Track property">
+        <div class = "slds-var-m-around_medium">  <!--to repopulate a value on UI, use value attribute-->
+            <lightning-input 
+            type = "text" 
+            label="Enter your current city"
+            onkeyup = {handleChange}       
+            value = {location.city}>
+            </lightning-input> 
+            <div class="slds-var-m-top_small">I live in {location.city}</div>       
+        </div>
+    </lightning-card>
+</template>

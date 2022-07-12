@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title = "Company info">
+        <div class = "slds-">  <!--to repopulate a value on UI, use value attribute-->
+            <lightning-input 
+            type = "text" 
+            label="Enter company name"
+            onkeyup = {handleChange}       
+            value = {details.company}>
+            </lightning-input> 
+            <div class="slds-var-m-top_small">The company name is {details.company}</div>       
+        </div>
+    </lightning-card>
+</template>
