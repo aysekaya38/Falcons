@@ -8,6 +8,7 @@ import EMAIL_FIELD from '@salesforce/schema/Contact.Email';
 import TITLE_FIELD from '@salesforce/schema/Contact.Title';
 import PHONE_FIELD from '@salesforce/schema/Contact.Phone';
 import MOBILEPHONE_FIELD from '@salesforce/schema/Contact.MobilePhone';
+import OWNER_FIELD from '@salesforce/schema/Contact.OwnerId';
 
 export default class LightningRecordViewFormAccount extends LightningElement {
     objectName = CONTACT_OBJECT;
@@ -19,6 +20,7 @@ export default class LightningRecordViewFormAccount extends LightningElement {
         email: EMAIL_FIELD,
         title: TITLE_FIELD,
         phone: PHONE_FIELD,
-        mobile: MOBILEPHONE_FIELD
+        mobile: MOBILEPHONE_FIELD,
+        ownerId: OWNER_FIELD
     }
 }

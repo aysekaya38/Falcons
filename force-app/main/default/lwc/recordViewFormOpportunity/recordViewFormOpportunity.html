@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title = "Record View Form - Opportunity" icon-name="standard:opportunity">
+        <div class="slds-var-m-around_medium">
+            <lightning-record-view-form
+                object-api-name={objectName}
+                record-id={recordId}>
+
+                <div class="slds-grid slds-guttors">
+                    <div class="slds-col col-size_1-of-2">
+                        <lightning-output-field field-name={fields.Name}></lightning-output-field>
+                        <lightning-output-field field-name={fields.AccountId}></lightning-output-field>
+                        <lightning-output-field field-name={fields.Type}></lightning-output-field>
+                    </div>
+
+                    <div class="slds-col col-size_1-of-2">
+                        <lightning-output-field field-name={fields.StageName}></lightning-output-field>
+                        <lightning-output-field field-name={fields.Amount}></lightning-output-field>
+                        <lightning-output-field field-name={fields.LeadSource}></lightning-output-field>
+                    </div>
+                </div>  
+            </lightning-record-view-form>
+        </div>
+    </lightning-card>  
+</template>
