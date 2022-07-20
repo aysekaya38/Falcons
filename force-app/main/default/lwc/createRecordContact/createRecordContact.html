@@ -1,0 +1,89 @@
+<template>
+    <lightning-card title="CREATE RECORD - CONTACT" icon-name="standard:contact">
+        <div class="slds-var-m-around_medium">
+            <!--we are creating a form from stracth-->
+            <form class="contact">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <lightning-input
+                            type ="text"
+                            label = "First Name"
+                            name ="FirstName"
+                            variant="standard"
+                   
+                            onchange={changeHandler}>
+                </lightning-input>
+
+                <lightning-input
+                    type ="text"
+                    label = "Last Name"
+                    name ="LastName"
+                    variant="standard"
+                    
+                    onchange={changeHandler}>
+                </lightning-input>
+
+                <lightning-input
+                    type ="text"
+                    label = "Title"
+                    name ="Title"
+                    variant="standard"
+                    
+                    onchange={changeHandler}>
+                </lightning-input>
+
+                    
+                </div>
+                
+                <div class="slds-col">
+                <lightning-input
+                    type ="text"
+                    label = "Department"
+                    name ="Department"
+                    variant="standard"
+                    
+                    onchange={changeHandler}>
+                </lightning-input>
+
+                <lightning-input
+                    type ="email"
+                    required="true"
+                    label = "Email"
+                    name ="Email"
+                    variant="standard"
+                    
+                    onchange={changeHandler}>
+                </lightning-input>
+                
+                <lightning-input
+                    type ="tell"
+                    label = "Phone"
+                    name ="Phone"
+                    variant="standard"
+                   
+                    onchange={changeHandler}>
+                </lightning-input>
+            </div>
+            </div>
+
+            </form>
+
+            <div class="slds-align_absolute-center slds-var-m-top_small">
+                <lightning-button
+                      label="Cancel"
+                      title="Cancel"
+                      onclick={changeHandler}>
+                  </lightning-button>
+
+                  &nbsp; &nbsp;
+
+                  <lightning-button
+                      label="Save Contact"
+                      variant="brand"
+                      title="Save Contact"
+                      onclick={createContact}>
+                  </lightning-button>
+            </div>
+        </div>
+    </lightning-card>
+</template>
