@@ -17,7 +17,7 @@ export default class CreateRecordOpportunity extends LightningElement {
 
     get stageChange(){
         return [
-            {label: "Prospecting", value: "Propsoecting"},
+            {label: "Prospecting", value: "Propspecting"},
             {label: "Qualiification", value: "Qualification"},
             {label: "Needs Analysis", value: "Needs Analysis"},
             {label: "Value proposition", value: "Value proposition"},

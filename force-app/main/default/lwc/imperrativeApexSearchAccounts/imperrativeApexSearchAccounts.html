@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title ="Imperative Apex - Search Industry" icon-name="standard:account">
+        <div class="slds-var-m-around_medium">
+            <lightning-combobox
+                label="Select the industry"
+                options={industryOptions}
+                value={selectedIndustry}
+                onchange={changeHandler}>
+            </lightning-combobox>
+
+            <div class = "slds-var-m-around_small">
+                <template if:true={accounts}>
+                    <strong>Searched Industry Accounts</strong>
+                    <lightning-datatable
+                        key-field="Id"
+                        data={accounts}
+                        columns={columns}>
+                    </lightning-datatable>
+
+                </template>
+
+                <template if:true={error}>
+                    {error}
+            </template>
+            </div>
+        </div>
+    </lightning-card>
+    
+</template>

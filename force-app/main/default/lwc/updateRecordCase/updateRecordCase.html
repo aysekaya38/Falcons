@@ -1,0 +1,41 @@
+<template>
+    <lightning-card title="UPDATE CASE RECORD" icon-name="standard:case">
+        <div class="slds-m-around_medium">
+            <form class="case.form">
+                <lightning-input
+                    type="text"
+                    name="Subject"
+                    label="Subject"
+                    value ={subject}
+                    onchange={changeHandler}>
+                </lightning-input>
+
+                <lightning-input-rich-text
+                    type="text"
+                    name="Description"
+                    label="Description"
+                    value = {description}
+                    onchange={changeHandler}>
+                </lightning-input-rich-text>
+
+                <lightning-combobox
+                    options={priorityChange}
+                    label="Priority"
+                    value ={priority}
+                    name="Priority"
+                    onchange={changeHandler}>
+                </lightning-combobox>
+                <div class="slds-align_absolute-center slds-var-m-top_small">
+                    <lightning-button 
+                        variant="brand"
+                        label ="Update Case"
+                        onclick={updateCase}>
+                    </lightning-button>
+                </div>
+
+            </form>
+
+        </div>
+    </lightning-card>
+    
+</template>
