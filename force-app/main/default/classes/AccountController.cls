@@ -6,7 +6,7 @@ public with sharing class AccountController {
         try {
 
             list<Account> accounts = [SELECT name, type, industry, annualrevenue from Account WHERE industry = 'Biotechnology' WITH SECURITY_ENFORCED LIMIT 4];
-            //with security_enforced enforce field level security, with sharing enforce record level security
+            //with security_enforced enforce field level security, with sharing enforce record level security.
             return accounts;
             
         } catch (Exception e) {
